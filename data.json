@@ -1,0 +1,17 @@
+[
+{
+    "name": "akhil",
+    "age": 22,
+    "location": "tvm"
+},
+{
+    "name": "sanju",
+    "age": 22,
+    "location": "kollam"
+},
+{
+    "name": "anjay",
+    "age": 22,
+    "location": "kannur"
+}
+]
