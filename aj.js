@@ -24,6 +24,32 @@
 //  arr.forEach(function (item,ind,arr2){
 //     arr2[ind]=item>50
 // })
+// array destructing
+const[,,third]=[67,55,90]
+// console.log(first)
+// console.log(second)
+console.log(third)
+// Array spread operator
+let a1=[2,4,6]
+let b1=[1,3,5,90]
+let c1=[...a1,...b1]
+console.log(c1)
+let [first,second,...rest]=[1,67,2,4,6]
+console.log(rest)
+// classes
+class car{
+    constructor(model,color,year){
+        this.model=model;
+        this.color=color;
+        this.year=year;
+    }
+    
+
+}
+let obj1=new car("ford","black",1999);
+let obj2=new car("fronx","black",2023);
+// console.log(obj1)
+console.log(obj2)
 // var arr2=arr.filter(function(item){
 //    return item>50;
 
